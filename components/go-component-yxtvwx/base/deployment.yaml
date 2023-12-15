@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-yxtvwx
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-rapx-tenant/build-suite-positive-mc-myse/go-component-yxtvwx@sha256:3125570cfa16fe941febd0257d8607aa44da8d85ef0031cf04023c6e48bb9ea8
         name: my-go
         ports:
         - containerPort: 8081
