@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-component-yxtvwx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-rapx-tenant/build-suite-positive-mc-myse/go-component-yxtvwx@sha256:3125570cfa16fe941febd0257d8607aa44da8d85ef0031cf04023c6e48bb9ea8
+        name: my-go
+        resources: {}
+status: {}
